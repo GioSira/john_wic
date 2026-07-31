@@ -1,0 +1,2 @@
+accuracy,f1,precision,recall,f1_macro,TP,TN,FP,FN,model,mode,n_examples,n_evaluated,n_unparsed,unparsed_rate
+0.7318787752551552,0.7817942958850701,0.6607923203667885,0.9570450300892301,0.717073638388825,9224,4831,4735,414,nvidia/Llama-3.3-70B-Instruct-NVFP4,p2,20154,19204,950,0.0471
