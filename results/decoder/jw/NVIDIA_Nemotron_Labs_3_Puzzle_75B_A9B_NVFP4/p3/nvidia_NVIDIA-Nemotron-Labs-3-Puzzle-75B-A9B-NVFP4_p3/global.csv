@@ -1,0 +1,2 @@
+accuracy,f1,precision,recall,f1_macro,TP,TN,FP,FN,model,mode,n_examples,n_evaluated,n_unparsed,unparsed_rate
+0.6860205155181484,0.7486445228193925,0.6032405836443842,0.9864058815369677,0.6652409057743517,7111,3322,4677,98,nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4,p3,20154,15208,4946,0.2454
