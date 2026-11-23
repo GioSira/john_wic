@@ -1,5 +1,14 @@
-# John-Wic
-**John-WiC** is a high-entropy benchmark dataset for the **Word in Context (WiC)** task. It is designed to probe lexical semantic models in challenging disambiguation settings, by focusing on target words that appear in highly ambiguous or semantically diverse contexts — i.e., instances where the entropy over possible word senses is high.
+# JoHN-WiC
+
+**JoHN-WiC: a Joint High-entropy Non-trivial benchmark for Words-in-Context**
+
+Vladimiro Lovera Rulfi, Giovanni Siragusa, Luigi Di Caro, Amon Rapp — University of Turin
+
+📄 Accepted at the *42nd ACM/SIGAPP Symposium on Applied Computing* (**SAC 2027**), Gwangju, South Korea.
+
+---
+
+**JoHN-WiC** is a high-entropy benchmark dataset for the **Word in Context (WiC)** task. It is designed to probe lexical semantic models in challenging disambiguation settings, by focusing on target words that appear in highly ambiguous or semantically diverse contexts — i.e., instances where the entropy over possible word senses is high.
 
 ---
 
@@ -7,13 +16,13 @@
 
 The **Word in Context (WiC)** task ([Pilehvar & Camacho-Collados, 2019](https://aclanthology.org/N19-1128/)) frames lexical ambiguity as a binary classification problem: given a target word appearing in two distinct sentences, the system must decide whether the word carries the **same sense** in both contexts.
 
-John-WiC extends this framework by concentrating on **high-entropy** instances — pairs where the target word is particularly polysemous or context-dependent — to provide a more demanding evaluation benchmark than existing WiC datasets.
+JoHN-WiC extends this framework by concentrating on **high-entropy** instances — pairs where the target word is particularly polysemous or context-dependent — to provide a more demanding evaluation benchmark than existing WiC datasets.
 
 ---
 
 ## Motivation: Why High Entropy?
 
-Standard WiC datasets may include many instances where context already strongly disambiguates the target word, making the task tractable via shallow lexical cues. John-WiC focuses specifically on **high-entropy** instances — words whose sense distribution is broad and uncertain — to:
+Standard WiC datasets may include many instances where context already strongly disambiguates the target word, making the task tractable via shallow lexical cues. JoHN-WiC focuses specifically on **high-entropy** instances — words whose sense distribution is broad and uncertain — to:
 
 - stress-test the ability of language models to perform fine-grained sense disambiguation;
 - expose limitations of models that rely on surface-level contextual patterns;
@@ -92,11 +101,32 @@ The WordNet sense IDs follow the format `wn:<offset><pos>`, where `<pos>` is one
 
 ## Citation
 
-> *Citation information will be provided upon publication. This repository is currently anonymized for double-blind peer review.*
+If you use JoHN-WiC in your research, please cite:
+
+```bibtex
+@inproceedings{loverarulfi2027johnwic,
+  author    = {Lovera Rulfi, Vladimiro and Siragusa, Giovanni and Di Caro, Luigi and Rapp, Amon},
+  title     = {{JoHN-WiC}: a Joint High-entropy Non-trivial benchmark for Words-in-Context},
+  booktitle = {Proceedings of the 42nd ACM/SIGAPP Symposium on Applied Computing},
+  series    = {SAC '27},
+  year      = {2027},
+  address   = {Gwangju, Republic of Korea},
+  publisher = {Association for Computing Machinery},
+  doi       = {10.1145/XXXXXXX.XXXXXXX}
+}
+```
+
+> The DOI and page numbers will be updated once the proceedings are published.
 
 ---
 
 ## Contact
 
-> *Contact information will be provided upon publication.*
+| Author | Email |
+|---|---|
+| Vladimiro Lovera Rulfi | [vladimiro.loverarulfi@gmail.com](mailto:vladimiro.loverarulfi@gmail.com) |
+| Giovanni Siragusa | [giovanni.siragusa@unito.it](mailto:giovanni.siragusa@unito.it) |
+| Luigi Di Caro | [luigi.dicaro@unito.it](mailto:luigi.dicaro@unito.it) |
+| Amon Rapp | [amon.rapp@unito.it](mailto:amon.rapp@unito.it) |
 
+For questions about the dataset or code, feel free to open an issue or contact the authors.
