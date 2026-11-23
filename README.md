@@ -124,7 +124,7 @@ If you use JoHN-WiC in your research, please cite:
 
 | Author | Email |
 |---|---|
-| Vladimiro Lovera Rulfi | [vladimiro.loverarulfi@gmail.com](mailto:vladimiro.loverarulfi@gmail.com) |
+| Vladimiro Lovera Rulfi | [vladimiro.loverarulfi@unito.it](mailto:vladimiro.loverarulfi@unito.it) |
 | Giovanni Siragusa | [giovanni.siragusa@unito.it](mailto:giovanni.siragusa@unito.it) |
 | Luigi Di Caro | [luigi.dicaro@unito.it](mailto:luigi.dicaro@unito.it) |
 | Amon Rapp | [amon.rapp@unito.it](mailto:amon.rapp@unito.it) |
